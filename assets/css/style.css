@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #040404;
+  background-color: #bffdfa;
   color: #fff;
   position: relative;
   background: transparent;
@@ -19,11 +19,11 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #c91818 url("../img/bg.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
-  top: 0;
+  top: 50px;
   height: 100vh;
   z-index: -1;
 }
@@ -293,7 +293,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: #fff6f600;
   transition: 0.3s;
   z-index: 999;
   margin-top: 0;
@@ -315,7 +315,7 @@ h6 {
   padding: 10px 0;
   overflow-y: auto;
   transition: 0.3s;
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(14, 13, 13, 0.952);
 }
 
 .navbar-mobile li {
@@ -425,7 +425,7 @@ section .container {
 
 .about-me .content ul i {
   font-size: 16px;
-  margin-right: 5px;
+  margin-right: 5px 0 0 68px;
   color: #18d26e;
   line-height: 0;
 }
@@ -455,7 +455,7 @@ section .container {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(248, 245, 245, 0.1);
   padding: 12px;
   color: #18d26e;
   border-radius: 50px;
@@ -502,7 +502,7 @@ section .container {
 }
 
 .skills .progress-bar-wrap {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.877);
 }
 
 .skills .progress-bar {
